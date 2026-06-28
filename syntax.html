@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prasadi Student Portal</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+<style>
+*{
+    .card{
+    width:300px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+    box-shadow:0 5px 15px rgba(37,99,235,0.4);
+}
+
+.btn:active{
+    transform:scale(0.98);
+}
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f7fc;
+display:flex;
+}
+
+.sidebar{
+width:260px;
+height:100vh;
+background:#1e293b;
+color:white;
+position:fixed;
+padding:20px;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+margin-bottom:30px;
+text-align:center;
+}
+
+.sidebar a{
+display:block;
+color:white;
+text-decoration:none;
+padding:12px;
+margin:8px 0;
+border-radius:10px;
+transition:.3s;
+}
+
+.sidebar a:hover{
+background:#334155;
+}
+
+.main{
+margin-left:260px;
+width:100%;
+padding:25px;
+}
+
+.topbar{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+margin-bottom:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.teacher-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.teacher-card{
+background:white;
+padding:20px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.teacher-card img{
+width:100px;
+height:100px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:10px;
+}
+
+.notice{
+background:white;
+padding:15px;
+border-radius:12px;
+margin-top:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.about{
+background:white;
+padding:20px;
+border-radius:15px;
+margin-top:20px;
+}
+
+.socials a{
+margin-right:15px;
+font-size:22px;
+color:#1e293b;
+}
+
+.day-buttons{
+display:flex;
+gap:10px;
+margin-bottom:15px;
+flex-wrap:wrap;
+}
+
+.day-buttons button{
+padding:10px 15px;
+border:none;
+background:#2563eb;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+<div class="logo">Prasadi  Portal</div>
+
+<a href="#"><i class="fas fa-home"></i> Dashboard</a>
+<a href="table.html"><i class="fas fa-clock"></i> Routine</a>
+<a href="photos/CamScanner 28-06-26 21.06.jpg"><i class="fas fa-calendar"></i> Calendar</a>
+<a href="#"><i class="fas fa-user-tie"></i> Teachers</a>
+<a href="#"><i class="fas fa-bullhorn"></i> Notices</a>
+<a href="#"><i class="fas fa-book"></i> Notes</a>
+<a href="aboutus.html"><i class="fas fa-info-circle"></i> About Us</a>
+<a href="https://warritex.github.io/Payment-page/"><i class="fas fa-user"></i> Donate ME</a>
+<a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+</div>
+
+<div class="main">
+
+<div class="topbar">
+<h1>Welcome Student</h1>
+<p>Your College Management Portal made by Rashik. This will help you to ..... (idk). just explore here and find out on yourself. </p>
+</div>
+
+<div class="cards">
+<div class="card">
+    <h3>Routine</h3>
+    <p>
+        <a href="table.html" class="btn">View Routine</a>
+    </p>
+</div>
+
+<div class="card">
+  <p>
+    <h3> Calendar</h3>
+        <a href="photos/CamScanner 28-06-26 21.06.jpg" class="btn">View Calendar</a>
+    </p>
+</div>
+
+<div class="card">
+<h3>Announcements</h3>
+<p> Yespali ko Worldcup portugal jitxa.</p>
+</div>
+
+<div class="card">
+<h3>Notes</h3>
+<p>Admin haven't done anything yet.</p>
+</div>
+</div>
+
+
+
+
+
+<h2 style="margin-top:30px;">Teacher Information</h2>
+
+<div class="teacher-grid">
+
+<div class="teacher-card">
+<img src="photos/WhatsApp Image 2026-06-28 at 9.23.41 PM.jpeg" alt="">
+<h3>Rashik joshi</h3>
+<p>Department of Bakchodi</p>
+<p> Computer</p>
+</div>
+
+<div class="teacher-card">
+<img src="photos/Screenshot 2026-06-28 212630.png" alt="">
+<h3>Gurung Tamang</h3>
+<p>Department of Kapal katne</p>
+<p>Physics</p>
+</div>
+
+<div class="teacher-card">
+<img src="photos/Screenshot 2026-06-28 212951.png" alt="">
+<h3> Amala Dhungel</h3>
+<p>Department of English</p>
+<p>English</p>
+</div>
+
+<div class="teacher-card">
+<img src="photos/image.png" alt="">
+<h3> Sachin Singh</h3>
+<p>Department of Computer</p>
+<p>Computer</p>
+</div>
+
+<div class="teacher-card">
+<img src="photos/bbp.png" alt="">
+<h3> Bishnu Parsad Paudel</h3>
+<p>Department of Math</p>
+<p>Math</p>
+</div>
+
+
+</div>
+
+<h2 style="margin-top:30px;">Announcements</h2>
+
+<div class="notice">
+<h3>Notice Title</h3>
+<p>Notice Aaile lai kei xaina...</p>
+</div>
+
+<h2 style="margin-top:30px;">Notes</h2>
+
+<div class="card">
+<h3>Shared Notes</h3>
+<p>Only Admin can upload notes.</p>
+<button>Download</button>
+</div>
+
+<div class="about">
+<h2>About Us</h2>
+<p> This is Prasadi college page made by me for other student and for my personal use just for fun :) thats it...</p>
+
+<h3 style="margin-top:15px;">Developer Credit</h3>
+<p>Developed by Rashik joshi.</p>
+
+<div class="socials" style="margin-top:15px;">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="https://www.instagram.com/rawsickkk/"><i class="fab fa-instagram"></i></a>
+<a href="https://github.com/Warritex"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
